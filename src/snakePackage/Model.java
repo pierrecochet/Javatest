@@ -68,7 +68,7 @@ public class Model {
           g.setColor(Color.BLUE);
           g.setFont(new Font(Font.SANS_SERIF, Font.BOLD, 20));
           g.drawString("Level : "+String.valueOf(getNiveau()), 5, 25);
-          g.drawString("Frog : "+String.valueOf(this.snake.getEatCount()), 345, 25);
+          g.drawString("Score : "+String.valueOf(this.snake.getEatCount()), g.getClipBounds().width - 120, 25);
       }
       
 }
