@@ -1,4 +1,4 @@
-#2D snake
+# 2D snake
 
 Greatings !
 
